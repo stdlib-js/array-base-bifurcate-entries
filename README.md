@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bifurcateEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-entries@deno/mod.js';
+import bifurcateEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-entries@v0.1.0-deno/mod.js';
 ```
 
 #### bifurcateEntries( x, filter )
@@ -94,7 +94,7 @@ var out = bifurcateEntries( x, filter );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-take@deno/mod.js';
-import bifurcateEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-entries@deno/mod.js';
+import bifurcateEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-entries@v0.1.0-deno/mod.js';
 
 // Define an initial array of values:
 var values = [ 'beep', 'boop', 'foo', 'bar', 'woot', 'woot' ];
