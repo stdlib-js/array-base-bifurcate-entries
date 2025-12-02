@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-21)
+## Unreleased (2025-12-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4ce0979`](https://github.com/stdlib-js/stdlib/commit/4ce097938211ea17c855b0e70a4ecb4329810542) - **bench:** refactor to use string interpolation in `array/base/bifurcate-entries` [(#8692)](https://github.com/stdlib-js/stdlib/pull/8692) _(by Aman Singh)_
 -   [`3f48135`](https://github.com/stdlib-js/stdlib/commit/3f48135698dc83762b7b304b748a783eb5813fed) - **docs:** clean-up code in TSDoc examples _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Philipp Burckhardt
 
 </section>
