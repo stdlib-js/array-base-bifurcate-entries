@@ -1,4 +1,4 @@
-"use strict";var c=function(t,e){return function(){return e||t((e={exports:{}}).exports,e),e.exports}};var o=c(function(p,h){"use strict";var g=require("@stdlib/array-base-resolve-getter");function f(t,e){var u,i,a,n,v,s,r;if(a=t.length,e.length!==a)throw new RangeError("invalid argument. The first and second arguments must have the same length.");if(a===0)return[];for(u=g(t),i=g(e),n=[[],[]],r=0;r<a;r++)s=u(t,r),v=i(e,r),v?n[0].push([r,s]):n[1].push([r,s]);return n}h.exports=f});var l=o();module.exports=l;
+"use strict";var c=function(t,e){return function(){try{return e||t((e={exports:{}}).exports,e),e.exports}catch(a){throw e=0,a}}};var o=c(function(p,h){"use strict";var g=require("@stdlib/array-base-resolve-getter");function f(t,e){var a,i,n,s,v,u,r;if(n=t.length,e.length!==n)throw new RangeError("invalid argument. The first and second arguments must have the same length.");if(n===0)return[];for(a=g(t),i=g(e),s=[[],[]],r=0;r<n;r++)u=a(t,r),v=i(e,r),v?s[0].push([r,u]):s[1].push([r,u]);return s}h.exports=f});var l=o();module.exports=l;
 /**
 * @license Apache-2.0
 *
